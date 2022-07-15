@@ -1,0 +1,30 @@
+body{
+	background-color: pink;
+}
+
+h1{
+	font-size: 30px;
+	color: hotpink;
+}
+h2{
+	font-size: 50px;
+	color: indianred;
+}
+.big{
+	font-size: 80px;
+}
+
+.fat{
+	color: green;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.fat.uppercase{
+	color: navy;
+}
+h1 span{
+	color: green;
+}
