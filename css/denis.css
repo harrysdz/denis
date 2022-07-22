@@ -17,6 +17,13 @@ header h1{
 	font-family: 'Montserrat', sans-serif;Montserrat:wght@600
 	font-size: 90px;
 }
+header h1:hover{
+	opacity: 0.8;
+}
+
+header img:hover{
+	opacity: 0.8;
+}
 
 header img{
 	border-radius: 240px;
@@ -30,6 +37,9 @@ header a{
 
 main h1{
 	font-family: 'Montserrat', sans-serif;Montserrat:wght@200
+}
+main h1:hover{
+	opacity: 0.5;
 }
 
 main h3{
@@ -52,29 +62,27 @@ main img{
 main p{
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
+	/*box-shadow: 2px 2px 2px 2px; color: darkgrey;*/
 }
-
-footer p{
-	margin: 1%;
-	font-size: 13px;
-	color: white;
-}
-
-footer a{
-	color: white;
-}
-
-footer a:hover{ 
-	opacity: 0.5;
-	background-color: transparent;
-
-}
-
 main a{
 	color: black;
 	text-decoration: none;
 }
 
+/*Footer*/
+footer p{
+	margin: 1%;
+	font-size: 13px;
+	color: white;
+}
+footer a{
+	color: white;
+}
+footer a:hover{ 
+	opacity: 0.5;
+	background-color: transparent;
+
+}
 footer{
 	text-align: center;
 	background-color: darkgrey;
